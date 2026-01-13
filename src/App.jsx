@@ -61,11 +61,15 @@ function App() {
         <div className="bottom">
           <div className="left"></div>
           <div className="right">
-            <p>
+            <h3>
               Dogstudio is a multidisciplinary <br />
               creative studio at the intersection <br />
               of art, design and technology.
-            </p>
+            </h3>
+            <br />
+            <p>Our goal is to deliver amazing experiences that make <br />
+                people talk, and build strategic value for brands, tech, <br />
+                entertainment, arts & culture.</p>
           </div>
         </div>
 
@@ -103,9 +107,32 @@ function App() {
             <h1>Royal Opera Of Wallonia</h1>
           </div>
         </div>
+        <div className='second-line'></div>
       </section>
-
-      <section id='section-3'></section>
+      <section id='section-3'>
+        <div className="top">
+          <div className="left">
+            <h5>This is how we do it</h5>
+            <h3>
+              We're crafting<br />
+              emotional<br />
+              experiences aimed <br />
+              at improving results<br />
+            </h3>
+          </div>
+          <div className="right"></div>
+        </div>
+      </section>
+      <section id="section-4">
+          <div className="bottom">
+          <div className="left"></div>
+          <div className="right">
+            <p>Dogstudio is a design &amp; technology firm working globally from our offices based in Belgium and Chicago. Our strong focus on producing high quality &amp; emotional brandings, digital products and experiences became a signature.</p>
+            <p>We’re passionate about moving people and solving problems for the likes of Microsoft, The Museum of Science And Industry Of Chicago, The Kennedy Center of Washington, Dragone, Quanta Magazine, and many more.</p>
+          </div>
+        </div>
+         <div className="first-line"></div>
+      </section>
     </main>
     </>
   )
